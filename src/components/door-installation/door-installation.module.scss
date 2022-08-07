@@ -1,0 +1,47 @@
+@import '../../variables';
+
+.doorInstallation {
+  padding: 20px 30px;
+  border: 2px solid $color-border;
+  margin-bottom: 32px;
+  & h3 {
+    & span {
+      color: #A1A1A1;
+    }
+  }
+
+
+  & .row {
+    display: flex;
+
+    &:first-child {
+      margin-bottom: 20px;
+    }
+
+    & fieldset {
+      border: none; 
+      flex: 1;
+
+      & label {
+        & span {
+          display: block;
+          & b {
+            font-weight: 300;
+            font-size: 13px;
+            line-height: 19px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.checkboxesList{
+  display: flex;
+  gap: 50px;
+  flex: 1;
+}
+
+.fieldsetNumber{ 
+  gap: 15px;
+}

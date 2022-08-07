@@ -1,10 +1,11 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper';
+import { SliderCard } from '../slider-card/slider-card';
+import styles from './slider-door.module.scss';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
-import styles from './slider-door.module.scss';
-import { SliderCard } from '../slider-card/slider-card';
+
 
 export default function SliderDoor(): JSX.Element {
   const {sliderDoor } = styles;

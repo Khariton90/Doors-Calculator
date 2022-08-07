@@ -1,7 +1,14 @@
+import { CustomInputCheckbox } from '../custom-input-checkbox/custom-input-checkbox';
 import styles from './search-door-form.module.scss';
 
 export function SearchDoorForm(): JSX.Element {
   const {searchForm, doorParameters, searchField, doorTypesField} = styles;
+
+  const typeDoorList = [
+    { id: 1, name: 'type-door', label: 'межкомнатная' },
+    { id: 2, name: 'type-door', label: 'входная' },
+  ]
+
   return (
     <div className={searchForm}>
       <h3>Модель двери</h3>
@@ -31,15 +38,16 @@ export function SearchDoorForm(): JSX.Element {
       </fieldset>
 
       <fieldset className={doorTypesField}>
-        <label htmlFor="">
-          <input type="radio" name="type-door" />
-          <span><b>межкомнатная</b></span>
-        </label>
-
-        <label htmlFor="">
-          <input type="radio" name="type-door" />
-          <span><b>входная</b></span>
-        </label>
+        {
+          typeDoorList.map((type) => (
+            <CustomInputCheckbox
+              key={type.id}
+              name={type.name}
+              label={type.label}
+              size='little'
+            />
+          ))
+        }
       </fieldset>
     </div>
   );

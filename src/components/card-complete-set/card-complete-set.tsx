@@ -2,6 +2,7 @@ import styles from './card-complete-set.module.scss';
 
 export function CardCompleteSet(): JSX.Element {
   const {cardCompleteSet} = styles;
+
   return (
     <div className={cardCompleteSet}>
       <fieldset>
