@@ -1,37 +1,50 @@
+import React, { useState } from 'react';
 import { CardCompleteSet } from '../card-complete-set/card-complete-set';
 import styles from './slider-card.module.scss';
 
-export function SliderCard(): JSX.Element {
-  const {doorConfigurationCard, content, doorType, description, descriptionTitle} = styles;
+type SliderCardProps = {
+  changeRadioInputValueHandler: (evt:React.ChangeEvent<HTMLInputElement>) => void,
+  disabled: boolean,
+  door: any
+}
+
+export function SliderCard({changeRadioInputValueHandler, disabled, door}: SliderCardProps): JSX.Element {
+  const {doorConfigurationCard, content, doorType, description, descriptionTitle, contentImage} = styles;
 
   return (
     <div className='unselectable'>
       <div className={doorConfigurationCard}>
         <div className={content}>
-          <input type="radio" className={doorType} name="configurationType"/>
-          <img src="images/door-img.png" alt="" />
+          <input type="radio" className={doorType} name="configurationType" onChange={changeRadioInputValueHandler}/>
+          <div className={contentImage}>
+            <img src={door.data.product.cover_image} alt="" width={'296px'} height="296px"/>
+          </div>
+          
         </div>
 
         <div className={description}>
+          <div>
           <p className={descriptionTitle}><b>
-            Дверное полотно Verda Бавария 16 дуб шале капучино глухое пвх 700х2000 мм
+            {door.data.product.title}
           </b></p>
+          <p>Код: {door.data.product.code}</p>
+          </div>
           <p className='annotation'>
-            Предназначено для установки в жилых и общественных помещениях, например: квартирах, офисах, магазинах, салонах и др.
-            Конструкция деталей обвязки выполнена в каркасном исполнении. Используется новая технология изготовления царги,
-            основанная на сочетании брусков хвойных пород и стабилизирующей плиты из МДФ высшего класса.
-            Высокотехнологичное декоративное ПВХ покрытие, нанесённое круговым окутыванием.
+            {door.data.product.description_no_html.description}
           </p>
+          <div className='block2'>
           <p className={descriptionTitle}><b>
-            Комплектация:
+            {door.data.product.description_no_html.properties[0].key}:
           </b></p>
           <p className='setSummary'>
-            дверное полотно с замком Vantage 96SN (хром), ручки в комплект не входят.
+            {door.data.product.description_no_html.properties[0].value}
           </p>
+          </div>
+          
         </div>
       </div>
 
-      <CardCompleteSet />
+      <CardCompleteSet disabled={disabled}/>
     </div>
  );
 };

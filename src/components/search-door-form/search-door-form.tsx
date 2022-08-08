@@ -5,18 +5,17 @@ export function SearchDoorForm(): JSX.Element {
   const {searchForm, doorParameters, searchField, doorTypesField} = styles;
 
   const typeDoorList = [
-    { id: 1, name: 'type-door', label: 'межкомнатная' },
-    { id: 2, name: 'type-door', label: 'входная' },
+    { id: 1, name: 'type-door', label: 'межкомнатная', checked: true},
+    { id: 2, name: 'type-door', label: 'входная', checked: false },
   ]
 
   return (
     <div className={searchForm}>
       <h3>Модель двери</h3>
 
-
       <label htmlFor="" className={searchField}>
         <input type="search" />
-        <span>Введите название, бренд или код</span>
+        <span>Введите название или код</span>
       </label>
 
 
@@ -45,6 +44,7 @@ export function SearchDoorForm(): JSX.Element {
               name={type.name}
               label={type.label}
               size='little'
+              value={type.checked}
             />
           ))
         }

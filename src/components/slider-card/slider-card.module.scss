@@ -1,7 +1,8 @@
 .doorConfigurationCard{
   display: flex;
-  align-items: center;
+  align-content: stretch;
   gap: 16px;
+  min-height: 460px;
 }
 
 .content {
@@ -9,12 +10,24 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  align-content: stretch;
+  margin-top: 50px;
+}
+
+.contentImage {
+  width: 135px !important;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  align-content: stretch;
 }
 
 .doorType {
   position: relative;
   top: 13px;
-  left: 2px;
+  left: -2px;
+  margin: 0;
   &::after,
   &::before {
     content: '';
@@ -49,6 +62,10 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
   & .descriptionTitle {
     font-size: 16px;
     line-height: 19px;

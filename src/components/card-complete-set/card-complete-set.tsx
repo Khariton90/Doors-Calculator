@@ -1,17 +1,30 @@
+import { kitsMock } from '../../mocks/kits';
 import styles from './card-complete-set.module.scss';
 
-export function CardCompleteSet(): JSX.Element {
-  const {cardCompleteSet} = styles;
+type CardCompleteSetProps = {
+	disabled?: boolean
+}
 
+export function CardCompleteSet({disabled}: CardCompleteSetProps): JSX.Element {
+  const {cardCompleteSet, kitsList} = styles;
+	const {data} = kitsMock;
+
+	const {kits} = data;
+	
+	const [value] = kits;
+
+	console.log(value);
   return (
-    <div className={cardCompleteSet}>
+    <div className={cardCompleteSet} aria-disabled={!disabled}>
       <fieldset>
         <legend>
           <b>Комплекты</b>
         </legend>
-        <input type="button" value="Базовый" className='active'/>
-        <input type="button" value="Базовый" />
-        <input type="button" value="Базовый" />
+				<div className={kitsList}>
+				   {kits.map((kit) => (<button type="button" key={kit.code} >{kit.title}</button>))}
+					 <button type="button" >Базовый комплект с широким наличником</button>
+				</div>
+				
       </fieldset>
 
       <table className="table">

@@ -1,3 +1,5 @@
+import { doors } from '../../mocks/doors';
+import { metalDoors } from '../../mocks/metal-doors';
 import { AddButton } from '../add-button/add-button';
 import { ArrangeButton } from '../arrange-button/arrange-button';
 import { DoorInstallation } from '../door-installation/door-installation';
@@ -20,13 +22,15 @@ type BlankDoorProps = {
   addBlankDoorHandle: () => void
 }
 
+
+
 export function BlankDoor({open, addBlankDoorHandle}: BlankDoorProps): JSX.Element {
 
   if (open) {
     return (
       <div className={styles.blankDoor}>
         <SearchDoorForm />
-        <SliderDoor />
+        <SliderDoor doors={doors}/>
         <DoorInstallation />
         <ListTable title={doorsAndArches.title} />
         <ListTable title={extraJob.title} />
