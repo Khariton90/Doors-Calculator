@@ -4617,4 +4617,657 @@ export const doors = [
       }
     }
   },
+
+  {
+    "state": {
+    "code": 20001,
+    "title": "ОК"
+    },
+    "data": {
+    "product": {
+    "product_guid": "436fd9b6-c6fe-11eb-80cc-00155dfdb60f",
+    "code": 685412,
+    "images": [
+    "//cs.petrovich.ru/image/7700637/original.jpg",
+    "//cs.petrovich.ru/image/8607280/original.jpg"
+    ],
+    "title": "Дверное полотно Verda ДПГ венге глухое ламинированная финишпленка 800х2000 мм",
+    "section": {
+    "section_guid": "e9e4a96d-e397-11e6-95f7-00259036a192",
+    "code": 12454,
+    "title": "Дверные полотна ламинированные",
+    "cover_image": "//cs.petrovich.ru/images/1221569/original.jpg",
+    "seo_link": null,
+    "product_qty": 0
+    },
+    "cover_image": "//cs.petrovich.ru/image/7700637/original.jpg",
+    "breadcrumbs": [
+    {
+    "section_guid": "e9e4a7fc-e397-11e6-95f7-00259036a192",
+    "code": 1533,
+    "title": "Интерьер и отделка",
+    "cover_image": "//cs.petrovich.ru/images/1221832/original.jpg",
+    "seo_link": null,
+    "product_qty": 0
+    },
+    {
+    "section_guid": "e9e4a7ff-e397-11e6-95f7-00259036a192",
+    "code": 1579,
+    "title": "Двери, скобяные изделия",
+    "cover_image": "//cs.petrovich.ru/images/1221686/original.jpg",
+    "seo_link": null,
+    "product_qty": 0
+    },
+    {
+    "section_guid": "e9e4a969-e397-11e6-95f7-00259036a192",
+    "code": 10050,
+    "title": "Двери межкомнатные",
+    "cover_image": "//cs.petrovich.ru/images/1221377/original.jpg",
+    "seo_link": null,
+    "product_qty": 0
+    },
+    {
+    "section_guid": "e9e4a96d-e397-11e6-95f7-00259036a192",
+    "code": 12454,
+    "title": "Дверные полотна ламинированные",
+    "cover_image": "//cs.petrovich.ru/images/1221569/original.jpg",
+    "seo_link": null,
+    "product_qty": 0
+    },
+    {
+    "section_guid": "00000000-0000-0000-0000-000000000000",
+    "code": 0,
+    "title": "Ламинированные дверные полотна Verda",
+    "cover_image": "",
+    "seo_link": "/catalog/12454/verda/",
+    "product_qty": 0
+    }
+    ],
+    "assoc_bundles": [
+    {
+    "section_guid": "e9e4a855-e397-11e6-95f7-00259036a192",
+    "code": 1433,
+    "title": "Пена профессиональная",
+    "cover_image": "//cs.petrovich.ru/image/7872503/original.jpg",
+    "seo_link": null,
+    "product_qty": 0
+    },
+    {
+    "section_guid": "bbd146bb-de3f-11eb-80cc-00155dfdb60f",
+    "code": 8615,
+    "title": "Пена огнестойкая",
+    "cover_image": "//cs.petrovich.ru/image/7872487/original.jpg",
+    "seo_link": null,
+    "product_qty": 0
+    },
+    {
+    "section_guid": "e9e4a9b3-e397-11e6-95f7-00259036a192",
+    "code": 9834,
+    "title": "Уровни",
+    "cover_image": "//cs.petrovich.ru/images/1261898/original.jpg",
+    "seo_link": null,
+    "product_qty": 0
+    },
+    {
+    "section_guid": "e9e4a9a5-e397-11e6-95f7-00259036a192",
+    "code": 20794,
+    "title": "Защита рук",
+    "cover_image": "//cs.petrovich.ru/images/1262371/original.jpg",
+    "seo_link": null,
+    "product_qty": 0
+    },
+    {
+    "section_guid": "e9e4a97d-e397-11e6-95f7-00259036a192",
+    "code": 1307,
+    "title": "Дверные доборы",
+    "cover_image": "//cs.petrovich.ru/images/1261796/original.jpg",
+    "seo_link": null,
+    "product_qty": 0
+    },
+    {
+    "section_guid": "d36317c1-17fc-11ea-80c7-00155dfc0c4f",
+    "code": 245806748,
+    "title": "Дверные коробки",
+    "cover_image": "//cs.petrovich.ru/images/2805453/original.jpg",
+    "seo_link": null,
+    "product_qty": 0
+    },
+    {
+    "section_guid": "e9e4a97e-e397-11e6-95f7-00259036a192",
+    "code": 64339332,
+    "title": "Дверные наличники",
+    "cover_image": "//cs.petrovich.ru/images/1261799/original.jpg",
+    "seo_link": null,
+    "product_qty": 0
+    },
+    {
+    "section_guid": "0a266631-1d7b-11ea-80c7-00155dfc0c4f",
+    "code": 247045939,
+    "title": "Доводчики дверные",
+    "cover_image": "//cs.petrovich.ru/images/2912224/original.jpg",
+    "seo_link": null,
+    "product_qty": 0
+    },
+    {
+    "section_guid": "e9e4a97a-e397-11e6-95f7-00259036a192",
+    "code": 1587,
+    "title": "Замки",
+    "cover_image": "//cs.petrovich.ru/images/1221666/original.jpg",
+    "seo_link": null,
+    "product_qty": 0
+    },
+    {
+    "section_guid": "10d8b6ed-1d7b-11ea-80c7-00155dfc0c4f",
+    "code": 247045941,
+    "title": "Запорные механизмы",
+    "cover_image": "//cs.petrovich.ru/images/2912284/original.jpg",
+    "seo_link": null,
+    "product_qty": 0
+    },
+    {
+    "section_guid": "e9e4a977-e397-11e6-95f7-00259036a192",
+    "code": 10055,
+    "title": "Ручки и комплектующие",
+    "cover_image": "//cs.petrovich.ru/images/1261771/original.jpg",
+    "seo_link": null,
+    "product_qty": 0
+    },
+    {
+    "section_guid": "7916f04d-f1fd-11ec-a2b9-00155dfcf00f",
+    "code": 9576006,
+    "title": "Упоры дверные",
+    "cover_image": "//cs.petrovich.ru/image/15807747/original.jpg",
+    "seo_link": null,
+    "product_qty": 0
+    }
+    ],
+    "checkout_type": "regular",
+    "has_alt_unit": false,
+    "is_unit_float": false,
+    "is_service": false,
+    "is_active": true,
+    "is_city_defined": true,
+    "is_in_wizart": false,
+    "is_marked": false,
+    "services": [
+    "is_mounting"
+    ],
+    "special_terms": [
+    "is_min_vehicle_15"
+    ],
+    "unit_title": "шт",
+    "unit_ratio": 1,
+    "unit_ratio_alt": 1,
+    "unit_title_alt": "шт",
+    "unit_title_full": {
+    "tvorit": "Штуками",
+    "vinit": "Штуку",
+    "imenit": "Штука"
+    },
+    "weight": 13,
+    "properties": [
+    {
+    "slug": "chasto_ischut",
+    "title": "Часто ищут",
+    "value": [
+    {
+    "slug": "frezerovka_pod_petli",
+    "title": "Фрезеровка под петли",
+    "link": null
+    },
+    {
+    "slug": "s_furnituroi",
+    "title": "С фурнитурой",
+    "link": null
+    },
+    {
+    "slug": "zamok_v_komplekte",
+    "title": "Замок в комплекте",
+    "link": null
+    },
+    {
+    "slug": "frezerovka_pod_zamok",
+    "title": "Фрезеровка под замок",
+    "link": null
+    }
+    ],
+    "unit": "",
+    "is_compare": false,
+    "is_description": false
+    },
+    {
+    "slug": "tip_tovara",
+    "title": "Тип товара",
+    "value": [
+    {
+    "slug": "dver",
+    "title": "Дверь",
+    "link": "/catalog/12454/?tip_tovara=dver"
+    }
+    ],
+    "unit": "",
+    "is_compare": true,
+    "is_description": true
+    },
+    {
+    "slug": "brend",
+    "title": "Бренд",
+    "value": [
+    {
+    "slug": "verda",
+    "title": "Verda",
+    "link": "/catalog/12454/verda/"
+    }
+    ],
+    "unit": "",
+    "is_compare": true,
+    "is_description": true
+    },
+    {
+    "slug": "material",
+    "title": "Материал",
+    "value": [
+    {
+    "slug": "mdf",
+    "title": "МДФ",
+    "link": null
+    }
+    ],
+    "unit": "",
+    "is_compare": true,
+    "is_description": true
+    },
+    {
+    "slug": "cvet",
+    "title": "Цвет",
+    "value": [
+    {
+    "slug": "venge",
+    "title": "Венге",
+    "link": "/catalog/12454/laminirovannye-dvernye-polotna-venge-cvtq/"
+    }
+    ],
+    "unit": "",
+    "is_compare": true,
+    "is_description": true
+    },
+    {
+    "slug": "tolschina_polotna",
+    "title": "Толщина дверного полотна",
+    "value": [
+    {
+    "slug": "38",
+    "title": "38",
+    "link": null
+    }
+    ],
+    "unit": "мм",
+    "is_compare": true,
+    "is_description": true
+    },
+    {
+    "slug": "modifikaciya_polotna",
+    "title": "Модификация полотна",
+    "value": [
+    {
+    "slug": "gluhoe",
+    "title": "Глухое",
+    "link": null
+    }
+    ],
+    "unit": "",
+    "is_compare": true,
+    "is_description": true
+    },
+    {
+    "slug": "shirina_polotna",
+    "title": "Ширина полотна",
+    "value": [
+    {
+    "slug": "800",
+    "title": "800",
+    "link": null
+    }
+    ],
+    "unit": "мм",
+    "is_compare": true,
+    "is_description": true
+    },
+    {
+    "slug": "vysota_polotna",
+    "title": "Высота полотна",
+    "value": [
+    {
+    "slug": "2000",
+    "title": "2000",
+    "link": null
+    }
+    ],
+    "unit": "мм",
+    "is_compare": true,
+    "is_description": true
+    },
+    {
+    "slug": "stil",
+    "title": "Стиль",
+    "value": [
+    {
+    "slug": "klassicheskii",
+    "title": "Классический",
+    "link": "/catalog/12454/?stil=klassicheskii"
+    }
+    ],
+    "unit": "",
+    "is_compare": true,
+    "is_description": true
+    },
+    {
+    "slug": "strana_proizvoditel",
+    "title": "Страна-производитель",
+    "value": [
+    {
+    "slug": "rossiya",
+    "title": "Россия",
+    "link": null
+    }
+    ],
+    "unit": "",
+    "is_compare": true,
+    "is_description": true
+    },
+    {
+    "slug": "nalichie_pritvora",
+    "title": "Наличие притвора",
+    "value": [
+    {
+    "slug": "net",
+    "title": "Нет",
+    "link": null
+    }
+    ],
+    "unit": "",
+    "is_compare": false,
+    "is_description": true
+    },
+    {
+    "slug": "nalichie_furnitury",
+    "title": "Наличие фурнитуры",
+    "value": [
+    {
+    "slug": "da",
+    "title": "Да",
+    "link": null
+    }
+    ],
+    "unit": "",
+    "is_compare": false,
+    "is_description": true
+    },
+    {
+    "slug": "petli_v_komplekte",
+    "title": "Петли в комплекте",
+    "value": [
+    {
+    "slug": "net",
+    "title": "Нет",
+    "link": null
+    }
+    ],
+    "unit": "",
+    "is_compare": false,
+    "is_description": true
+    },
+    {
+    "slug": "razmery",
+    "title": "Размеры",
+    "value": [
+    {
+    "slug": "800h2000",
+    "title": "800х2000",
+    "link": null
+    }
+    ],
+    "unit": "мм",
+    "is_compare": false,
+    "is_description": true
+    },
+    {
+    "slug": "pokrytie",
+    "title": "Покрытие",
+    "value": [
+    {
+    "slug": "laminirovannaya_finishplenka",
+    "title": "Ламинированная финишпленка",
+    "link": null
+    }
+    ],
+    "unit": "",
+    "is_compare": false,
+    "is_description": true
+    },
+    {
+    "slug": "zamok_v_komplekte",
+    "title": "Замок в комплекте",
+    "value": [
+    {
+    "slug": "da",
+    "title": "Да",
+    "link": null
+    }
+    ],
+    "unit": "",
+    "is_compare": false,
+    "is_description": true
+    },
+    {
+    "slug": "nalichie_frezerovki",
+    "title": "Наличие фрезеровки",
+    "value": [
+    {
+    "slug": "da",
+    "title": "Да",
+    "link": null
+    }
+    ],
+    "unit": "",
+    "is_compare": false,
+    "is_description": true
+    },
+    {
+    "slug": "cvet_zamka",
+    "title": "Цвет замка",
+    "value": [
+    {
+    "slug": "hrom",
+    "title": "Хром",
+    "link": null
+    }
+    ],
+    "unit": "",
+    "is_compare": false,
+    "is_description": true
+    },
+    {
+    "slug": "frezerovka_pod_petli",
+    "title": "Фрезеровка под петли",
+    "value": [
+    {
+    "slug": "da",
+    "title": "Да",
+    "link": null
+    }
+    ],
+    "unit": "",
+    "is_compare": false,
+    "is_description": true
+    },
+    {
+    "slug": "ruchka_v_komplekte",
+    "title": "Ручка в комплекте",
+    "value": [
+    {
+    "slug": "net",
+    "title": "Нет",
+    "link": null
+    }
+    ],
+    "unit": "",
+    "is_compare": false,
+    "is_description": true
+    },
+    {
+    "slug": "pogonaj_v_komplekte",
+    "title": "Погонаж в комплекте",
+    "value": [
+    {
+    "slug": "net",
+    "title": "Нет",
+    "link": null
+    }
+    ],
+    "unit": "",
+    "is_compare": false,
+    "is_description": true
+    },
+    {
+    "slug": "frezerovka_pod_zamok",
+    "title": "Фрезеровка под замок",
+    "value": [
+    {
+    "slug": "da",
+    "title": "Да",
+    "link": null
+    }
+    ],
+    "unit": "",
+    "is_compare": false,
+    "is_description": true
+    },
+    {
+    "slug": "rasstoyanie_do_ruchki_ot_niza_polotna",
+    "title": "Расстояние до ручки от низа полотна",
+    "value": [
+    {
+    "slug": "1028",
+    "title": "1028",
+    "link": null
+    }
+    ],
+    "unit": "мм",
+    "is_compare": false,
+    "is_description": true
+    },
+    {
+    "slug": "ves",
+    "title": "Вес",
+    "value": [
+    {
+    "slug": "13_kg",
+    "title": "13",
+    "link": null
+    }
+    ],
+    "unit": "кг",
+    "is_compare": true,
+    "is_description": true
+    }
+    ],
+    "height": 38,
+    "length": 2000,
+    "width": 800,
+    "increment_step": 1,
+    "price": {
+    "gold": 3590,
+    "retail": 3697,
+    "points": 897.25,
+    "individual": null
+    },
+    "price_alt": {
+    "gold": null,
+    "retail": null,
+    "individual": null
+    },
+    "bonus": 0,
+    "attributes": null,
+    "is_not_in_stock": false,
+    "is_infinite_shelf": false,
+    "is_solitary_shipping": false,
+    "is_in_showroom": true,
+    "is_gift_certificate": false,
+    "gift": null,
+    "promos": null,
+    "supply_days": 14,
+    "remains": {
+    "city_selected": true,
+    "availability": "available",
+    "total": 33,
+    "supply_ways": [
+    {
+    "supply_way_type": "delivery",
+    "delivery_type": "today",
+    "request_date": null,
+    "supply_date": null,
+    "subdivision_list": null
+    },
+    {
+    "supply_way_type": "in_stock",
+    "delivery_type": null,
+    "request_date": null,
+    "supply_date": null,
+    "subdivision_list": [
+    {
+    "code": "spb_tlnk",
+    "is_few": false,
+    "remains_amount": 15,
+    "subdivision_title": "Таллинское"
+    },
+    {
+    "code": "spb_sever",
+    "is_few": false,
+    "remains_amount": 9,
+    "subdivision_title": "КАД Север"
+    },
+    {
+    "code": "spb_mrm",
+    "is_few": false,
+    "remains_amount": 6,
+    "subdivision_title": "Мурманское ш."
+    },
+    {
+    "code": "spb_industr",
+    "is_few": false,
+    "remains_amount": 3,
+    "subdivision_title": "Индустриальный"
+    }
+    ]
+    }
+    ]
+    },
+    "description": "<p class=\"product-description-text\">Предназначено для установки в жилых и общественных помещениях, например: квартирах, офисах, магазинах, салонах и др.\r\nДверное полотно гладкое глухое облегчённой конструкции без притвора. Каркас двери – горизонтальные перекладины и вертикальные стойки из ДСП или МДФ, сотовое картонное заполнение каркаса двери. Поверхность полотна – МДФ плита, покрытая ламинированной финиш-пленкой. </p><p class=\"product-description-title\">Комплектация</p><p class=\"product-description-text\">Дверное полотно,замок 2014 (хром). Дверная монтажная коробка приобретается отдельно. К дверной монтажной коробке прилагается фурнитура: ответная планка под замок , петли 65 мм (хром) 2 шт. + саморезы. Ручки в комплект не входят.</p>",
+    "description_no_html": {
+    "description": "Предназначено для установки в жилых и общественных помещениях, например: квартирах, офисах, магазинах, салонах и др.\r\nДверное полотно гладкое глухое облегчённой конструкции без притвора. Каркас двери – горизонтальные перекладины и вертикальные стойки из ДСП или МДФ, сотовое картонное заполнение каркаса двери. Поверхность полотна – МДФ плита, покрытая ламинированной финиш-пленкой. ",
+    "properties": [
+    {
+    "key": "Комплектация",
+    "value": "Дверное полотно,замок 2014 (хром). Дверная монтажная коробка приобретается отдельно. К дверной монтажной коробке прилагается фурнитура: ответная планка под замок , петли 65 мм (хром) 2 шт. + саморезы. Ручки в комплект не входят.",
+    "values": []
+    }
+    ]
+    },
+    "extended_description": "",
+    "extended_description_no_html": [],
+    "certificates": [
+    "//cs.petrovich.ru/certificates/8725822.pdf"
+    ],
+    "instructions": null,
+    "videos": null,
+    "volume_ratio": 1,
+    "calculator_components": null,
+    "lifting_tariff_guid": "8ded982a-2efd-11df-942d-0023543d7b52",
+    "external_id": 40294287,
+    "compression_ratio": 1,
+    "loan_monthly_payment": 130
+    }
+    }
+    }
 ]

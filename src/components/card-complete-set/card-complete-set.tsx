@@ -8,12 +8,8 @@ type CardCompleteSetProps = {
 export function CardCompleteSet({disabled}: CardCompleteSetProps): JSX.Element {
   const {cardCompleteSet, kitsList} = styles;
 	const {data} = kitsMock;
-
 	const {kits} = data;
-	
-	const [value] = kits;
 
-	console.log(value);
   return (
     <div className={cardCompleteSet} aria-disabled={!disabled}>
       <fieldset>

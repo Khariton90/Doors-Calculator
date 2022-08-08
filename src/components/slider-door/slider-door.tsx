@@ -34,8 +34,8 @@ export default function SliderDoor({doors}: SliderDoorProps): JSX.Element {
         modules={[Navigation]}
         spaceBetween={10}
         slidesPerView={slideShowValue}
-        onSlideChange={() => console.log('slide change')}
-        onSwiper={(swiper) => console.log(swiper)}
+        // onSlideChange={() => console.log('slide change')}
+        // onSwiper={(swiper) => console.log(swiper)}
         navigation={{nextEl: '.nextEl', prevEl: '.prevEl'}}
       >
         {doors.map((door, index) => (<SwiperSlide key={index}><SliderCard changeRadioInputValueHandler={changeRadioInputValueHandler} disabled={disabled} door={door}/></SwiperSlide>))}

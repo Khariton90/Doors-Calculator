@@ -1,7 +1,5 @@
 import { useEffect, useState } from 'react';
 import '../../App.css';
-import { doors } from '../../mocks/doors';
-import { kitsMock } from '../../mocks/kits';
 import { BlankDoor } from '../blank-door/blank-door';
 
 

@@ -1,11 +1,18 @@
+import { ChangeEvent } from 'react';
 import { CustomInputCheckbox } from '../custom-input-checkbox/custom-input-checkbox';
 import styles from './search-door-form.module.scss';
 
-export function SearchDoorForm(): JSX.Element {
+type SearchDoorFormProps = {
+  getSearchValue: (evt: ChangeEvent<HTMLInputElement>) => void,
+  toggleMaterialDoors: (evt: ChangeEvent<HTMLInputElement>) => void,
+  value: string
+}
+
+export function SearchDoorForm({getSearchValue, toggleMaterialDoors, value}: SearchDoorFormProps): JSX.Element {
   const {searchForm, doorParameters, searchField, doorTypesField} = styles;
 
   const typeDoorList = [
-    { id: 1, name: 'type-door', label: 'межкомнатная', checked: true},
+    { id: 1, name: 'type-door', label: 'межкомнатная', checked: true },
     { id: 2, name: 'type-door', label: 'входная', checked: false },
   ]
 
@@ -14,19 +21,19 @@ export function SearchDoorForm(): JSX.Element {
       <h3>Модель двери</h3>
 
       <label htmlFor="" className={searchField}>
-        <input type="search" />
+        <input type="search" value={value} onChange={getSearchValue}/>
         <span>Введите название или код</span>
       </label>
 
 
       <fieldset className={doorParameters}>
         <label htmlFor="">
-          <input type="number" name="height" />
+          <input type="number" name="height"/>
           <span>высота</span>
         </label>
 
         <label htmlFor="">
-          <input type="number" name="width" />
+          <input type="number" name="width"/>
           <span>ширина</span>
         </label>
 
@@ -40,6 +47,7 @@ export function SearchDoorForm(): JSX.Element {
         {
           typeDoorList.map((type) => (
             <CustomInputCheckbox
+              toggleMaterialDoors={toggleMaterialDoors}
               key={type.id}
               name={type.name}
               label={type.label}
